@@ -27,6 +27,9 @@ video {
   .responsive-text {
       font-size: 0.8rem;
   }
+	.heroSlika{
+    margin-top: 40px;
+   }
 }
 .footer {
   background-color: #000;
