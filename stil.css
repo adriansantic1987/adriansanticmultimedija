@@ -19,6 +19,9 @@ video {
   .responsive-text {
       font-size: 0.9rem;
   }
+	.heroSlika{
+		 margin-top: 10px;
+	}
 }
 @media (max-width: 480px) {
   .responsive-text {
