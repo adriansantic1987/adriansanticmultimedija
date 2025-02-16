@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pegla Band</title>
+  <script src="zavrsnizadatak.js"></script>
+  <link rel="stylesheet" href="stil.css">
+  <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+ 
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <div class="logo">
+        <a class="navbar-brand" href="index.html">
+          <img src="peglaband.png" width="30" height="24" class="d-inline-block align-text-top" />
+          Pegla Band</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav me-auto">
+          <a class="nav-link" onclick="location.href='#ale'">Počeci</a>
+          <a class="nav-link" onclick="location.href='#ala'">O nama</a>
+          <a class="nav-link" onclick="location.href='#kutija'">Članovi</a>
+          <a class="nav-link" onclick="location.href='#vid'">Uživo s nastupa</a>
+          <a class="nav-link" href="forma.html">Kontaktirajte nas</a>
+        </div>
+
+        <div class="theme-switch">
+          <input type="checkbox" id="themeToggle" />
+          <label for="themeToggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </label>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <img src="novaslika.png" class="img-fluid heroSlika" alt="Pegla Band" id="sl"/>
+
+    <div class="container" id="ale" >
+      <div class="row align-items-center mb-4">
+        <div class="col-md-12 col-12 text-center fs-7 fs-sm-6 fs-md-5 fs-lg-4">
+          <p>
+            Pegla Band je osnovan sredino 2022. godine kada su dva mladića s otoka Krka (Antonio Jurešić i Luka Perlić) osnovali band, te krenuli sa raznim gažama, diljem otoka. Nedugo nakon Dino Bajčić zamjenjuje Antonia Jurešića, te dalje nastavljaju Luka Perlić i Dino Bajčić.
+          </p>
+        </div>
+        <div class="col-md-12 col-12 text-center">
+          <img src="pocetak.jpg" class="img-fluid rounded shadow-lg" style="max-width: 60%;" alt="Bend na pozornici" />
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <div class="container" id="ala">
+      <div class="row align-items-center mb-4">
+        <div class="col-md-4 col-12 text-center text-md-start fs-sm-5 fs-md-4 fs-lg-3">
+          <p>
+            Pegla Band je energičan trio mladih glazbenika s otoka Krka, osnovan 2022. godine. Ova talentirana ekipa donosi osvježavajući zvuk na lokalnu scenu, spajajući razne glazbene stilove u jedinstven i prepoznatljiv izričaj. Njihove gaže odišu pozitivnom energijom i sjajnom atmosferom, čime osvajaju publiku na svakom nastupu.
+          </p>
+        </div>
+        <div class="col-md-8 col-12">
+          <img src="ale.jpg" class="img-fluid" alt="Bend na pozornici" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center mt-4">
+        <div class="col-md-8 col-12">
+          <img src="druga.png" class="img-fluid" alt="Bend na pozornici" />
+        </div>
+        <div class="col-md-4 col-12 text-center text-md-start fs-sm-5 fs-md-4 fs-lg-3">
+          <p>
+            Ako tražite bend koji će podići atmosferu i pružiti vrhunsku glazbenu zabavu na području Kvarnera, a i šire, Pegla Band s Krka pravi je izbor!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5" id="kutija">
+      <div class="row g-4">
+        <div class="col-md-4 col-sm-6">
+          <div class="box p-3">
+            <img src="dino.png" alt="Slika 1" />
+            <div class="box-text">
+              <h5>Dino Bajčić</h5>
+              <p>U Pegla Band došao početkom 2023. godine. Svirač gitare u bandu.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6" id="target-section">
+          <div class="box p-3">
+            <img src="luka.png" alt="Slika 2" />
+            <div class="box-text">
+              <h5>Luka Perlić</h5>
+              <p>Začetnik cijelog projekta Pegla Banda. Harmonikaš u bandu.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="box p-3">
+            <img src="juraj.png" alt="Slika 3" />
+            <div class="box-text">
+              <h5>Juraj Mrakovčić</h5>
+              <p>Bandu se pridružio krajem 2023. godine. Svirač gitare u bandu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <video controls id="vid">
+            <source src="video.mp4" type="video/mp4">
+            Vaš preglednik ne podržava video tag.
+          </video>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <p class="responsive-text">LIVE sa nastupa u jednom od krčkih kafića.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <h4>Peglaband.com</h4>
+      <nav>
+        <a href="#">HOME</a>
+        <a href="#ale">Počeci</a>
+        <a href="#ala">O nama</a>
+        <a href="#kutija">Članovi</a>
+        <a href="#vid">Uživo s nastupa!</a>
+        <a href="forma.html">Kontakirajte nas!</a>
+      </nav>
+      <div class="social-icons mt-2">
+        <a href="https://www.facebook.com/p/Pegla-band-100087325524202/?locale=hr_HR"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/pegla_band/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@pegla.band"><i class="fab fa-tiktok"></i></a>
+      </div>
+      <p class="mt-3">Copyright © 2025 Adrian Šantić || Pegla Band ♥</a></p>
+    </div>
+  </footer>
+</body>
+
+</html>
